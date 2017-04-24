@@ -3,6 +3,7 @@ package com.wormsgame.Sprites;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.*;
 import com.badlogic.gdx.utils.Array;
 import com.wormsgame.Screens.PlayScreen;
@@ -116,12 +117,31 @@ public class Worm extends Sprite {
         bdef.type = BodyDef.BodyType.DynamicBody;
         b2body = world.createBody(bdef);
 
+
+
         FixtureDef fdef = new FixtureDef();
         CircleShape shape = new CircleShape();
         // Creating a rectangle
         shape.setRadius(12 / WormsClass.PPM);
 
+        //definition with what can our player collide
+        fdef.filter.categoryBits = WormsClass.WORM_BIT;
+        fdef.filter.maskBits =WormsClass.DEFAULT_BIT | WormsClass.COIN_BIT | WormsClass.BRICK_BIT;
+
+
         fdef.shape =shape;
         b2body.createFixture(fdef);
+
+
+        //creating a new shape on the head of Player
+        EdgeShape head = new EdgeShape();
+        head.set(new Vector2(-2 / WormsClass.PPM,14 /WormsClass.PPM), new Vector2 (2 / WormsClass.PPM,14 /WormsClass.PPM));
+        fdef.shape = head;
+
+
+        fdef.isSensor = true; // It doesn't collide with the world
+
+
+        b2body.createFixture(fdef).setUserData("head");
     }
 }

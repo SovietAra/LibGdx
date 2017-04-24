@@ -4,6 +4,7 @@ import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.Screen;
+import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
@@ -25,6 +26,7 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 import com.wormsgame.Scenes.HUD;
 import com.wormsgame.Sprites.Worm;
 import com.wormsgame.Tools.B2WorldCreator;
+import com.wormsgame.Tools.WorldContactListener;
 import com.wormsgame.WormsClass;
 
 /**
@@ -53,6 +55,8 @@ public class PlayScreen implements Screen {
     //Animation
     private TextureAtlas atlas;
 
+    private Music music;
+
     public PlayScreen(WormsClass game) {
         this.game = game;
 
@@ -77,6 +81,16 @@ public class PlayScreen implements Screen {
         b2dr = new Box2DDebugRenderer();
 
         new B2WorldCreator(world,map);
+
+        //World getting in Contact with objects
+        world.setContactListener(new WorldContactListener());
+
+        //Sounds
+        music = WormsClass.manager.get("audio/music/mario_music.ogg", Music.class);
+        music.setLooping(true);
+        music.play();
+
+
 
 
     }
@@ -118,6 +132,7 @@ public class PlayScreen implements Screen {
         gamecam.position.x = worm.b2body.getPosition().x;
 
         worm.update(dt);
+        hud.update(dt);
 
         gamecam.update();
         renderer.setView(gamecam); // renders only what our game can see
