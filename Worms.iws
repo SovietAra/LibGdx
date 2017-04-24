@@ -5,25 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62499ccc-74d4-46db-b3fb-941d4afcdd79" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/com/wormsgame/Tools/WorldContactListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/core/com/wormsgame/Scenes/HUD.class" afterPath="$PROJECT_DIR$/out/production/core/com/wormsgame/Scenes/HUD.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/core/com/wormsgame/Screens/PlayScreen.class" afterPath="$PROJECT_DIR$/out/production/core/com/wormsgame/Screens/PlayScreen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/core/com/wormsgame/Sprites/Brick.class" afterPath="$PROJECT_DIR$/out/production/core/com/wormsgame/Sprites/Brick.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/core/com/wormsgame/Sprites/Coin.class" afterPath="$PROJECT_DIR$/out/production/core/com/wormsgame/Sprites/Coin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/core/com/wormsgame/Sprites/InteractiveTileObject.class" afterPath="$PROJECT_DIR$/out/production/core/com/wormsgame/Sprites/InteractiveTileObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/core/com/wormsgame/Sprites/Worm$1.class" afterPath="$PROJECT_DIR$/out/production/core/com/wormsgame/Sprites/Worm$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/core/com/wormsgame/Sprites/Worm$State.class" afterPath="$PROJECT_DIR$/out/production/core/com/wormsgame/Sprites/Worm$State.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/core/com/wormsgame/Sprites/Worm.class" afterPath="$PROJECT_DIR$/out/production/core/com/wormsgame/Sprites/Worm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/core/com/wormsgame/WormsClass.class" afterPath="$PROJECT_DIR$/out/production/core/com/wormsgame/WormsClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Worms.ipr" afterPath="$PROJECT_DIR$/Worms.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/android.apk" afterPath="$PROJECT_DIR$/out/production/android/android.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/android.unaligned.apk" afterPath="$PROJECT_DIR$/out/production/android/android.unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Worms.iws" afterPath="$PROJECT_DIR$/Worms.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/wormsgame/Scenes/HUD.java" afterPath="$PROJECT_DIR$/core/src/com/wormsgame/Scenes/HUD.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/wormsgame/Screens/PlayScreen.java" afterPath="$PROJECT_DIR$/core/src/com/wormsgame/Screens/PlayScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/wormsgame/Sprites/Brick.java" afterPath="$PROJECT_DIR$/core/src/com/wormsgame/Sprites/Brick.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/wormsgame/Sprites/Coin.java" afterPath="$PROJECT_DIR$/core/src/com/wormsgame/Sprites/Coin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/wormsgame/Sprites/InteractiveTileObject.java" afterPath="$PROJECT_DIR$/core/src/com/wormsgame/Sprites/InteractiveTileObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/wormsgame/Sprites/Worm.java" afterPath="$PROJECT_DIR$/core/src/com/wormsgame/Sprites/Worm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/wormsgame/WormsClass.java" afterPath="$PROJECT_DIR$/core/src/com/wormsgame/WormsClass.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -156,8 +140,8 @@
       <file leaf-file-name="Brick.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/com/wormsgame/Sprites/Brick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="142">
+              <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -812,6 +796,14 @@
       <option name="presentableId" value="Default" />
       <updated>1492674789719</updated>
     </task>
+    <task id="LOCAL-00001" summary="Some Tests with sound and Breakable stuff">
+      <created>1493031752745</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1493031752745</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -866,6 +858,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <MESSAGE value="Some Tests with sound and Breakable stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some Tests with sound and Breakable stuff" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1046,8 +1040,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/wormsgame/Sprites/Brick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="142">
+          <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
