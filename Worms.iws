@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62499ccc-74d4-46db-b3fb-941d4afcdd79" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/android.apk" afterPath="$PROJECT_DIR$/out/production/android/android.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/android.unaligned.apk" afterPath="$PROJECT_DIR$/out/production/android/android.unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Worms.iws" afterPath="$PROJECT_DIR$/Worms.iws" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -72,16 +70,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DesktopLauncher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/desktop/src/com/wormsgame/desktop/DesktopLauncher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PlayScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/wormsgame/Screens/PlayScreen.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,8 +105,18 @@
       <file leaf-file-name="WormsClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/wormsgame/WormsClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+            <state relative-caret-position="132">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Worms.iws" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Worms.iws">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -137,11 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Brick.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Brick.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/wormsgame/Sprites/Brick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+            <state relative-caret-position="219">
+              <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -230,6 +228,7 @@
         <option value="$PROJECT_DIR$/core/src/com/wormsgame/Sprites/Coin.java" />
         <option value="$PROJECT_DIR$/core/src/com/wormsgame/WormsClass.java" />
         <option value="$PROJECT_DIR$/core/src/com/wormsgame/Sprites/Brick.java" />
+        <option value="$PROJECT_DIR$/Worms.iws" />
       </list>
     </option>
   </component>
@@ -810,7 +809,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493031816378</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Some Tests with sound and Breakable stuff">
+      <created>1493031832563</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1493031832563</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1036,21 +1042,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/wormsgame/Sprites/Brick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/wormsgame/WormsClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        <state relative-caret-position="132">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/wormsgame/Sprites/Brick.java">
+    <entry file="file://$PROJECT_DIR$/Worms.iws">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
